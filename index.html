@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrit Indo Canadian Academy | CBSE Affiliated School, Ludhiana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://www.amritacademy.in/static/img/logos/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="description" content="Amrit Indo Canadian Academy (AICA) - CBSE affiliated school in Ludhiana, Punjab. Founded in 2005 by S. Harminder Singh. Affiliation No. 1630443.">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner"></div>
+            <p>AICA</p>
+        </div>
+    </div>
+
+    <!-- Top Info Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <div class="top-bar-left">
+                <a href="tel:0161-2921267"><i class="fas fa-phone-alt"></i> 0161-2921267</a>
+                <a href="mailto:amritindoca@yahoo.co.in"><i class="fas fa-envelope"></i> amritindoca@yahoo.co.in</a>
+            </div>
+            <div class="top-bar-right">
+                <a href="https://www.facebook.com/Amritindocanadianacademy" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/@amritindocanadianacademy6739" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.amritacademy.in/login/" target="_blank" class="top-login-btn">Login</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav" id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="logo-container">
+                <img src="https://www.amritacademy.in/static/img/logos/logo.png" alt="AICA Logo" class="logo">
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#info" class="nav-link">School Info</a></li>
+                <li><a href="#academics" class="nav-link">Academics</a></li>
+                <li><a href="#facilities" class="nav-link">Facilities</a></li>
+                <li><a href="#clubs" class="nav-link">Clubs</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content-wrapper">
+
+        <!-- ===== HERO SECTION ===== -->
+        <section id="home" class="hero">
+            <div class="hero-slider" id="heroSlider">
+                <div class="hero-slide active" style="background-image: url('https://www.amritacademy.in/media/img/slider/1.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('https://www.amritacademy.in/media/img/slider/2.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('https://www.amritacademy.in/media/img/slider/5.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('https://www.amritacademy.in/media/img/slider/3.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('https://www.amritacademy.in/media/img/slider/4.jpg')"></div>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-badge">CBSE Affiliated &bull; Aff. No. 1630443</div>
+                <h1>AMRIT INDO CANADIAN ACADEMY</h1>
+                <p class="hero-tagline">Strive, Believe, Achieve &mdash; Your Journey Starts Here</p>
+                <div class="hero-btns">
+                    <a href="#about" class="cta-btn primary-btn">Explore Campus</a>
+                    <a href="#contact" class="cta-btn outline-btn">Contact Us</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item"><span class="stat-num" data-target="2005">2005</span><span class="stat-label">Est. Year</span></div>
+                    <div class="stat-item"><span class="stat-num" data-target="8">8</span><span class="stat-label">Acres Campus</span></div>
+                    <div class="stat-item"><span class="stat-num" data-target="100">100%</span><span class="stat-label">Board Results</span></div>
+                    <div class="stat-item"><span class="stat-num" data-target="23">23+</span><span class="stat-label">Clubs</span></div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- ===== MARQUEE / NOTICES ===== -->
+        <div class="notice-bar">
+            <div class="notice-label"><i class="fas fa-bullhorn"></i> Notices</div>
+            <div class="notice-ticker">
+                <div class="ticker-track">
+                    <span><i class="fas fa-circle-dot"></i> Excellent Board Result of Class XII &mdash; <a href="https://www.amritacademy.in/media/notice_files/CLASS_XII_WITH_PICS_RESULT_2.pdf" target="_blank">View PDF</a></span>
+                    <span><i class="fas fa-circle-dot"></i> SAFE VAHAN PROTOCOLS &mdash; <a href="https://www.amritacademy.in/media/notice_files/At_AICA_the_safety_and_well.docx" target="_blank">Download</a></span>
+                    <span><i class="fas fa-circle-dot"></i> Guidelines for Parents &mdash; <a href="https://www.amritacademy.in/media/notice_files/Guidelines_for_Parents.docx" target="_blank">Download</a></span>
+                    <span><i class="fas fa-circle-dot"></i> Excellent Board Result of Class X &mdash; <a href="https://www.amritacademy.in/media/notice_files/CLASS_X_WITH_PICS_RESULT_2_1.pdf" target="_blank">View PDF</a></span>
+                    <span><i class="fas fa-circle-dot"></i> REGISTRATION OPEN FOR SESSION 2025-2026 &mdash; <a href="https://www.amritacademy.in/media/circulars/REGISTRATION_OPEN.pdf" target="_blank">Download</a></span>
+                    <span><i class="fas fa-circle-dot"></i> 100% Board Result of Classes X and XII</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section id="about" class="section">
+            <div class="section-header">
+                <span class="section-tag">Who We Are</span>
+                <h2 class="section-title">About AICA</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="glass-card about-main">
+                    <div class="card-icon"><i class="fas fa-university"></i></div>
+                    <h3>About Amrit Indo Canadian Academy</h3>
+                    <p>Education is an important tool to strengthen and to promote the society which enables the country to have a healthy nation. For this purpose, educational temples pursuing the ethical values, headed by selfless and devoted personalities are needed.</p>
+                    <p>S. Harminder Singh founded Amrit Educational Society in 2004. This society decided to establish Amrit Indo Canadian Academy and the Academy started functioning from 14.04.2005. The Academy has been affiliated with the CBSE New Delhi (Aff No.1630443).</p>
+                </div>
+                <div class="glass-card">
+                    <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Philosophy of AICA</h3>
+                    <p>"We cannot prepare the future for the youth but we can certainly prepare our youth for the future."</p>
+                    <ul class="styled-list">
+                        <li>Build positive attitude, character & positive self-esteem</li>
+                        <li>Build pleasing personality to be leaders of tomorrow</li>
+                        <li>Become more responsible, emotionally stable and physically fit</li>
+                        <li>Become intellectually vibrant, spiritually enlightened, socially committed and above all good human beings</li>
+                    </ul>
+                </div>
+                <div class="glass-card">
+                    <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>School Mission</h3>
+                    <p>Our mission is to cultivate a vibrant learning community grounded in faith, gratitude, tolerance, reflection, and insight, delivered through accessible, high-quality education.</p>
+                    <p>We are dedicated to developing well-rounded individuals using research-based, adaptive pedagogical models. Our teachings integrate the CBSE curriculum's core learning objectives with teachings from Shri Guru Granth Sahib ji, social-emotional learning, financial literacy, digital citizenship, essential study and communication skills.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="card-icon"><i class="fas fa-eye"></i></div>
+                    <h3>Vision Statement</h3>
+                    <p>We envision a future where our students are honest, compassionate, resilient, and highly skilled global citizens, embodying the wisdom of Shri Guru Granth Sahib ji and equipped to navigate an ever-changing world.</p>
+                    <p>We aspire to be a pioneering educational institution renowned for its innovative pedagogy, impactful community outreach, empowered educators and unwavering commitment to ethical leadership and lifelong learning.</p>
+                </div>
+                <div class="glass-card full-width">
+                    <div class="card-icon"><i class="fas fa-building"></i></div>
+                    <h3>Infrastructure</h3>
+                    <p>The Academy is situated on the periphery of Ludhiana which has very calm atmosphere free from smog-congested streets of the city. Its land measure about 8 acres. On the whole it is a unique gift of nature to the students and the staff to have a wordsworthian environment to pursue their goals.</p>
+                    <p>The building of the Academy, which has picturesque surroundings, presents a rare architectural grandeur. It is centrally air conditioned. The building has two blocks &mdash; administrative and teaching. This ensures undisturbed studies of the students and help the administration to solve the problems of parents as well as that of teachers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SCHOOL INFO SECTION ===== -->
+        <section id="info" class="section section-alt">
+            <div class="section-header">
+                <span class="section-tag">Details</span>
+                <h2 class="section-title">School Information</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="info-grid">
+                <div class="glass-card info-table-card">
+                    <h3><i class="fas fa-info-circle"></i> General Information</h3>
+                    <table class="info-table">
+                        <tr><td>Name of Institution</td><td>AMRIT INDO CANADIAN ACADEMY</td></tr>
+                        <tr><td>Postal Address</td><td>Vill. Ladian Khurd, P.O. Bagga Khurd, Ludhiana, Punjab</td></tr>
+                        <tr><td>City</td><td>Ludhiana</td></tr>
+                        <tr><td>Pin Code</td><td>141008</td></tr>
+                        <tr><td>Phone</td><td>Office: 0161-2921267, +91-7380046499</td></tr>
+                        <tr><td>Email</td><td>amritindoca@yahoo.co.in</td></tr>
+                        <tr><td>Website</td><td><a href="https://www.amritacademy.in" target="_blank">www.amritacademy.in</a></td></tr>
+                        <tr><td>Year of Establishment</td><td>2005</td></tr>
+                        <tr><td>Affiliation No.</td><td>1630443</td></tr>
+                        <tr><td>Affiliation Since</td><td>2007</td></tr>
+                        <tr><td>NOC No.</td><td>03/2006/2799</td></tr>
+                        <tr><td>Status of Affiliation</td><td>Provisional</td></tr>
+                        <tr><td>Name of Society</td><td>Amrit Educational Society (Regd.) Ludhiana</td></tr>
+                        <tr><td>President</td><td>S. Harminder Singh</td></tr>
+                    </table>
+                </div>
+                <div class="info-side">
+                    <div class="glass-card">
+                        <h3><i class="fas fa-ruler-combined"></i> Campus Area</h3>
+                        <div class="stat-grid">
+                            <div class="mini-stat"><span class="mini-num">18,211</span><span class="mini-label">Total Area (sq.m)</span></div>
+                            <div class="mini-stat"><span class="mini-num">8</span><span class="mini-label">Acres</span></div>
+                            <div class="mini-stat"><span class="mini-num">7,546</span><span class="mini-label">Built-up (sq.m)</span></div>
+                            <div class="mini-stat"><span class="mini-num">3,969</span><span class="mini-label">Playground (sq.m)</span></div>
+                        </div>
+                    </div>
+                    <div class="glass-card">
+                        <h3><i class="fas fa-book-open"></i> Library Facilities</h3>
+                        <table class="info-table compact">
+                            <tr><td>Library Size</td><td>38 x 96 sq.ft</td></tr>
+                            <tr><td>Reference Books</td><td>6,500+</td></tr>
+                            <tr><td>Periodicals</td><td>12</td></tr>
+                            <tr><td>Dailies</td><td>5</td></tr>
+                            <tr><td>Magazines</td><td>6</td></tr>
+                            <tr><td>Other</td><td>Computers with internet, Projector, Encyclopedia Britannica</td></tr>
+                        </table>
+                    </div>
+                    <div class="glass-card">
+                        <h3><i class="fas fa-clock"></i> Opening Hours</h3>
+                        <table class="info-table compact">
+                            <tr><td>Mon-Fri (Summer)</td><td>08:00 &ndash; 14:00</td></tr>
+                            <tr><td>Saturday</td><td>08:00 &ndash; 12:00</td></tr>
+                            <tr><td>2nd Saturday</td><td>Closed</td></tr>
+                            <tr><td>Sunday</td><td>Closed</td></tr>
+                        </table>
+                    </div>
+                    <div class="glass-card">
+                        <h3><i class="fas fa-bus"></i> Transport</h3>
+                        <ul class="styled-list">
+                            <li>Own fleet of school buses</li>
+                            <li>Additional buses hired on contract</li>
+                            <li>Average transport charges: &#8377;550/- approx.</li>
+                            <li>SAFE VAHAN protocols strictly enforced</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ACADEMICS SECTION ===== -->
+        <section id="academics" class="section">
+            <div class="section-header">
+                <span class="section-tag">Academics</span>
+                <h2 class="section-title">Curriculum & Admissions</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="academics-grid">
+                <div class="glass-card">
+                    <div class="card-icon"><i class="fas fa-user-graduate"></i></div>
+                    <h3>Admissions</h3>
+                    <p>A child of 3 years age is admitted to Nursery and 4 years old to L.K.G. and so on. Admission to 1st class and above is subject to clearing a written test and to availability of seats. There is no test for admission to Kindergarten classes.</p>
+                    <h4>Documents Required:</h4>
+                    <ul class="styled-list">
+                        <li>Photo copy of Date of Birth certificate (attested)</li>
+                        <li>School leaving certificate</li>
+                        <li>Report card of class passed</li>
+                        <li>Two latest passport size photographs</li>
+                        <li>Latest photograph of family</li>
+                        <li>Photocopy of Aadhar card of parents</li>
+                        <li>Blood group report of student</li>
+                    </ul>
+                </div>
+                <div class="glass-card">
+                    <div class="card-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>Curriculum</h3>
+                    <p>The CBSE course curriculum is observed throughout. English and Punjabi are taught from Nursery onwards. Hindi is taught from Class III onwards as per the three language formula laid down by the board.</p>
+                    <p>The NCERT books have been prescribed for all Secondary and Senior Secondary classes. Equal stress is laid on theory and practical education. Remedial therapy classes for those who need extra guidance are conducted in the school.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Fee Structure (Monthly Tuition)</h3>
+                    <table class="info-table compact">
+                        <tr><td>Nursery &ndash; UKG</td><td>&#8377; 2,340</td></tr>
+                        <tr><td>Class I &ndash; V</td><td>&#8377; 2,450</td></tr>
+                        <tr><td>Class VI &ndash; VIII</td><td>&#8377; 2,510</td></tr>
+                        <tr><td>Class IX &ndash; X</td><td>&#8377; 2,680</td></tr>
+                        <tr><td>Class XI &ndash; XII (Science)</td><td>&#8377; 3,050</td></tr>
+                        <tr><td>Class XI &ndash; XII (Commerce)</td><td>&#8377; 2,910</td></tr>
+                        <tr><td>Class XI &ndash; XII (Humanities)</td><td>&#8377; 2,910</td></tr>
+                    </table>
+                </div>
+                <div class="glass-card subjects-card">
+                    <div class="card-icon"><i class="fas fa-book"></i></div>
+                    <h3>Subjects Offered</h3>
+                    <div class="subjects-grid">
+                        <div class="subject-group">
+                            <h4>LKG & UKG</h4>
+                            <p>English, Maths, Punjabi, EVS (Oral), Rhymes, Drawing & Colouring, Music, Conversation, Divinity, Indoor/Outdoor Games</p>
+                        </div>
+                        <div class="subject-group">
+                            <h4>Primary (I&ndash;V)</h4>
+                            <p>English, Punjabi, Hindi (III onwards), Maths, EVS/Science & S.S., G.K., Computer, Music, Art-Craft, Physical Edu., Divinity</p>
+                        </div>
+                        <div class="subject-group">
+                            <h4>Middle (VI&ndash;VIII)</h4>
+                            <p>English, Punjabi, Hindi, Maths, Science, Social Studies, Art, Physical Edu., Divinity, Computer, Work Experience</p>
+                        </div>
+                        <div class="subject-group">
+                            <h4>Secondary (IX&ndash;X)</h4>
+                            <p>English, Punjabi, Maths, General Science, Social Studies, Hindi, Physical Edu., Computer, Horse Riding</p>
+                        </div>
+                        <div class="subject-group">
+                            <h4>Senior Secondary (XI&ndash;XII)</h4>
+                            <p>English, Punjabi, Physics, Chemistry, Biology, Mathematics, Informatics Practices, Geography, Physical Education, Economics, Business Studies, Accountancy, Political Science, Music, Painting, Entrepreneurship, Psychology</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FACILITIES SECTION ===== -->
+        <section id="facilities" class="section section-alt">
+            <div class="section-header">
+                <span class="section-tag">Campus Life</span>
+                <h2 class="section-title">Our Facilities</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-icon"><i class="fas fa-flask"></i></div>
+                    <h3>Laboratories</h3>
+                    <p>Fully-equipped science labs for Physics, Chemistry, and Biology with modern instruments and apparatus for practical learning.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Computing Facilities</h3>
+                    <p>State-of-the-art computer labs with high-speed internet access and modern software for digital education.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon"><i class="fas fa-book-reader"></i></div>
+                    <h3>Libraries</h3>
+                    <p>Expansive library with 6,500+ reference books, periodicals, encyclopedias, and digital resources.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon"><i class="fas fa-tv"></i></div>
+                    <h3>Digital Classrooms</h3>
+                    <p>Interactive smart classrooms with projectors and digital boards for immersive learning experiences.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon"><i class="fas fa-pray"></i></div>
+                    <h3>Divinity Classes</h3>
+                    <p>Dedicated sessions rooted in the teachings of Shri Guru Granth Sahib ji, nurturing spiritual growth and moral values.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon"><i class="fas fa-futbol"></i></div>
+                    <h3>Sports Facilities</h3>
+                    <p>Sprawling sports grounds for cricket, football, athletics, basketball, badminton, and horse riding.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon"><i class="fas fa-music"></i></div>
+                    <h3>Music & Arts</h3>
+                    <p>Dedicated music rooms, band practice areas, Gatka training, and fine arts studios for holistic development.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon"><i class="fas fa-campground"></i></div>
+                    <h3>Trips & Camps</h3>
+                    <p>Regular educational excursions, adventure camps, and field trips to enrich experiential learning.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CLUBS SECTION ===== -->
+        <section id="clubs" class="section">
+            <div class="section-header">
+                <span class="section-tag">Student Life</span>
+                <h2 class="section-title">Vibrant Clubs <span class="badge-new">NEW</span></h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="clubs-container">
+                <!-- Computer Science Club -->
+                <div class="club-category">
+                    <h3 class="club-cat-title"><i class="fas fa-code"></i> Computer Science Club</h3>
+                    <div class="clubs-grid">
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1509966756634-9c23dd6e6815?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Scratch Coding Club</h4><p>Visual programming for young innovators</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>DesignDazzle Club</h4><p>Canva Creative Designers Club</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>WebWeavers Club</h4><p>Web Wizards building the future</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>AppQuest Club</h4><p>App Innovators creating solutions</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>TechnoVerse Club</h4><p>AI & IoT Explorers Club</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Animatrix Studio</h4><p>Animatrix Creativity Club</p></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fine Arts Club -->
+                <div class="club-category">
+                    <h3 class="club-cat-title"><i class="fas fa-palette"></i> Fine Arts Club</h3>
+                    <div class="clubs-grid">
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>The Glossy Studio</h4><p>Painting & creative expression</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Fabric Fantasia</h4><p>Textile arts & fabric design</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1602607434880-2486398cce60?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Candle Creations</h4><p>Art of candle making</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1596568362045-69a7a2add43f?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Beads & Bliss</h4><p>Jewelry making & bead craft</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Clay Creations</h4><p>Sculpting & pottery</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Wrap Wonders</h4><p>Gift wrapping & crafting</p></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Science Club -->
+                <div class="club-category">
+                    <h3 class="club-cat-title"><i class="fas fa-atom"></i> Science Club</h3>
+                    <div class="clubs-grid">
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Planet Pals</h4><p>AICA Eco Club</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Food Science Tech</h4><p>Exploring the science of food</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Medical Physics</h4><p>Physics in healthcare</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Pharmaceutical Pioneer</h4><p>Drug discovery & pharmacology</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Aero Innovators</h4><p>Aviation & aerospace</p></div>
+                        </div>
+                        <div class="club-card" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80')">
+                            <div class="club-info"><h4>Quantum Verse</h4><p>Exploring quantum physics</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== GALLERY SECTION ===== -->
+        <section id="gallery" class="section section-alt">
+            <div class="section-header">
+                <span class="section-tag">Memories</span>
+                <h2 class="section-title">Life at AICA</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://www.amritacademy.in/media/img/slider/1.jpg" alt="AICA Campus" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay"><span>Campus View</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.amritacademy.in/media/img/XToppers/manpreet.png" alt="Class X Topper - Manpreet" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay"><span>Class X Topper</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.amritacademy.in/media/img/XToppers/Sehaj.png" alt="Class X Topper - Sehaj" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay"><span>Class X Topper</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.amritacademy.in/media/img/slider/2.jpg" alt="School Activities" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay"><span>Activities</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.amritacademy.in/media/img/XToppers/japnoor_kaur.png" alt="Class X Topper - Japnoor Kaur" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay"><span>Class X Topper</span></div>
+                </div>
+                <div class="gallery-item large">
+                    <img src="https://www.amritacademy.in/media/img/slider/5.jpg" alt="AICA Events" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay"><span>School Events</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.amritacademy.in/media/img/slider/3.jpg" alt="AICA Sports" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay"><span>Sports Day</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://www.amritacademy.in/media/img/slider/4.jpg" alt="AICA Cultural" class="gallery-img" loading="lazy">
+                    <div class="gallery-overlay"><span>Cultural Events</span></div>
+                </div>
+            </div>
+            <!-- Lightbox -->
+            <div class="lightbox" id="lightbox">
+                <button class="lightbox-close" id="lightboxClose">&times;</button>
+                <img src="" alt="Gallery Image" class="lightbox-img" id="lightboxImg">
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <span class="section-tag">Reach Us</span>
+                <h2 class="section-title">Contact Us</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-cards">
+                    <div class="contact-card">
+                        <div class="contact-card-icon blue"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Visit Academy</h3>
+                        <p>Ladian Khurd,<br>Ludhiana &ndash; 141008, Punjab</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon gold"><i class="fas fa-phone-alt"></i></div>
+                        <h3>Let&rsquo;s Talk</h3>
+                        <p><strong>Reception:</strong> (0161) 2921267<br>+91-7380046499</p>
+                        <p><strong>Accounts:</strong> 0161-2921268</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon rose"><i class="fas fa-envelope"></i></div>
+                        <h3>E-mail Us</h3>
+                        <p><a href="mailto:amritindoca@yahoo.co.in">amritindoca@yahoo.co.in</a></p>
+                    </div>
+                </div>
+                <div class="glass-card contact-form-card">
+                    <h3><i class="fas fa-paper-plane"></i> Send Your Message</h3>
+                    <form id="contactForm" onsubmit="event.preventDefault(); document.getElementById('formSuccess').style.display='flex'; this.reset();">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">First Name *</label>
+                                <input type="text" id="contactName" name="name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address *</label>
+                                <input type="email" id="contactEmail" name="email" required placeholder="your@email.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject">Subject *</label>
+                            <input type="text" id="contactSubject" name="subject" required placeholder="How can we help?">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Write a message *</label>
+                            <textarea id="contactMessage" name="message" rows="5" required placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="cta-btn primary-btn submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                    <div class="form-success" id="formSuccess" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Message sent successfully! We'll get back to you soon.</p>
+                        <button onclick="this.parentElement.style.display='none'" class="cta-btn outline-btn">Close</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Google Map -->
+            <div class="map-container">
+                <iframe src="https://maps.google.com/maps?q=30.95130,75.78942&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="400" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" title="AICA Location Map"></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-main">
+            <div class="footer-col">
+                <img src="https://www.amritacademy.in/static/img/logos/logo.png" alt="AICA Logo" class="footer-logo">
+                <p>The cell aims at exploring the aptitude of the students which help them to explore their career options. Students are groomed up to join industry not only for employability but also inspired to shape the destiny of the nation with work ethics & professionalism.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About AICA</a></li>
+                    <li><a href="#academics">Admissions</a></li>
+                    <li><a href="#gallery">Photo Gallery</a></li>
+                    <li><a href="#clubs">Clubs</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Academics</h4>
+                <ul>
+                    <li><a href="#academics">Curriculum</a></li>
+                    <li><a href="#academics">Fee Structure</a></li>
+                    <li><a href="https://www.amritacademy.in/S_Circulars" target="_blank">Circulars</a></li>
+                    <li><a href="https://www.amritacademy.in/search-tc/" target="_blank">Download TC</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-phone-alt"></i> 0161-2921267</li>
+                    <li><i class="fas fa-envelope"></i> amritindoca@yahoo.co.in</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Ladian Khurd, Ludhiana. 141008</li>
+                </ul>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/Amritindocanadianacademy" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/@amritindocanadianacademy6739" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <p>&copy; 2026 Amrit Indo Canadian Academy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#home" class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
