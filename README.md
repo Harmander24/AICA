@@ -1,2 +1,0 @@
-# AICA
-wbpage
